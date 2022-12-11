@@ -16,7 +16,6 @@ namespace Test
             //int a = 4;
             //int b = 4;
             //int esperado = 8;
-
             //Act
             int actual = clsCalculadora.Suma(a, b);
             Assert.AreEqual(esperado, actual);
