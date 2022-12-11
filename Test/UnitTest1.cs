@@ -22,7 +22,6 @@ namespace Test
             Assert.AreEqual(esperado, actual);
 
         }
-
         [DataRow(4, 4, 0)]
         [TestMethod]
         public void Resta_Retonar_Valor(int a, int b, int esperado)
